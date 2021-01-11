@@ -13,3 +13,6 @@ SELECT * FROM albums WHERE release_date BETWEEN 1990 AND 1999;
 
 SELECT 'Which albums had less than 20 million certified sales' AS 'Info';
 SELECT * FROM albums WHERE sales < 20;
+
+SELECT 'All the albums with a genre of "Rock"' AS 'Info';
+SELECT * FROM albums WHERE genre = 'Rock';
