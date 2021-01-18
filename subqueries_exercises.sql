@@ -23,4 +23,4 @@ WHERE emp_no IN (
     FROM dept_manager
     WHERE to_date > NOW()
     )
-      AND employees.gender = 'F';
+    AND employees.gender = 'F';
